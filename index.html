@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MINEHOST Minecraft Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">MINEHOST</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#ranks">Ranks</a>
+      <a href="#about">About</a>
+      <a href="#join">Join Server</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Minecraft Survival Server</h1>
+    <p>Buy ranks, coins and premium kits.</p>
+
+    <div class="server-box">
+      <span id="server-ip">play.minehost.fun</span>
+      <button onclick="copyIP()">Copy IP</button>
+    </div>
+  </section>
+
+  <section class="ranks" id="ranks">
+    <h2>Server Ranks</h2>
+
+    <div class="rank-container">
+
+      <div class="rank-card vip">
+        <h3>VIP</h3>
+        <p>Special Kit + Fly</p>
+        <h1>₹99</h1>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="rank-card mvp">
+        <h3>MVP</h3>
+        <p>Premium Kit + Particles</p>
+        <h1>₹199</h1>
+        <button>Buy Now</button>
+      </div>
+
+      <div class="rank-card legend">
+        <h3>LEGEND</h3>
+        <p>All Features + Special Tag</p>
+        <h1>₹399</h1>
+        <button>Buy Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Server</h2>
+    <p>
+      Best Indian Minecraft Survival Server with events, PvP,
+      economy and custom ranks.
+    </p>
+  </section>
+
+  <section class="join" id="join">
+    <h2>Join Now</h2>
+    <p>Java & Bedrock Supported</p>
+    <button onclick="copyIP()">Join Server</button>
+  </section>
+
+  <footer>
+    <p>© 2026 MINEHOST Minecraft Server</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+      </html>
