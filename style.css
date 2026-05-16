@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #161b22;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00ff99;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00ff99;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(to bottom, #0d1117, #111827);
+}
+
+.hero h1 {
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #bdbdbd;
+}
+
+.server-box {
+  margin-top: 30px;
+}
+
+.server-box span {
+  background: #161b22;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.server-box button {
+  margin-left: 10px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #00ff99;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.ranks {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.ranks h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.rank-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.rank-card {
+  background: #161b22;
+  padding: 35px;
+  width: 300px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.rank-card:hover {
+  transform: translateY(-10px);
+}
+
+.rank-card h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.rank-card p {
+  color: #bdbdbd;
+  margin-bottom: 20px;
+}
+
+.rank-card h1 {
+  margin-bottom: 20px;
+  color: #00ff99;
+}
+
+.vip {
+  border: 2px solid #00ff99;
+}
+
+.mvp {
+  border: 2px solid #00aaff;
+}
+
+.legend {
+  border: 2px solid gold;
+}
+
+.about,
+.join {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about h2,
+.join h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #161b22;
+}
+
+@media(max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+  }
+
+  }
